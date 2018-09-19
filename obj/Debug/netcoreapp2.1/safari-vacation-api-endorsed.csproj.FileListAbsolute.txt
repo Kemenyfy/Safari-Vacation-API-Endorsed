@@ -1,0 +1,14 @@
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/bin/Debug/netcoreapp2.1/safari-vacation-api-endorsed.deps.json
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/bin/Debug/netcoreapp2.1/safari-vacation-api-endorsed.runtimeconfig.json
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/bin/Debug/netcoreapp2.1/safari-vacation-api-endorsed.runtimeconfig.dev.json
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/bin/Debug/netcoreapp2.1/safari-vacation-api-endorsed.dll
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/bin/Debug/netcoreapp2.1/safari-vacation-api-endorsed.pdb
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.csprojAssemblyReference.cache
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.csproj.CoreCompileInputs.cache
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.RazorAssemblyInfo.cache
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.RazorAssemblyInfo.cs
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.AssemblyInfoInputs.cache
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.AssemblyInfo.cs
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.RazorTargetAssemblyInfo.cache
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.dll
+/Users/Kemenyfy/sdg/cool-projects/safari-vacation-api-endorsed/obj/Debug/netcoreapp2.1/safari-vacation-api-endorsed.pdb
