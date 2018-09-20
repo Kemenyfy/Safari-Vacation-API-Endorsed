@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace safari-vacation-api-endorsed
+namespace SafariVacationApiEndorsed
 {
     public partial class SafariVacationApiEndorsedContext : DbContext
     {
@@ -26,5 +26,7 @@ namespace safari-vacation-api-endorsed
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {}
+
+        public DbSet<SeenAnimal> SeenAnimals { get; set; }
     }
 }

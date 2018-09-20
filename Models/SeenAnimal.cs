@@ -1,6 +1,6 @@
 using System;
 
-namespace safari_vacation_api_endorsed
+namespace SafariVacationApiEndorsed
 {
     public class SeenAnimal {
 
