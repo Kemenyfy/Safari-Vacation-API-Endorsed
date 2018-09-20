@@ -18,6 +18,22 @@ namespace SafariVacationApiEndorsed.Controllers
             return db.SeenAnimals;
         }
 
+        [HttpPost]
+        public ActionResult<SeenAnimal> Post([FromBody] string species)
+        {
+            var animal = new SeenAnimal
+            {
+                Species = species,
+                LocationOfLastSeen = "Out There",
+            };
+
+            var db = new SafariVacationApiEndorsedContext();
+
+            db.SeenAnimals.Add(animal);
+            db.SaveChanges();
+            return animal;
+        }
+
     }
     
 }
