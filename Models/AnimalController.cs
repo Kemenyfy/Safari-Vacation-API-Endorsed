@@ -12,9 +12,10 @@ namespace SafariVacationApiEndorsed.Controllers
     public class AnimalController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<SeenAnimal>> Get()
         {
-            return new List<string> {"Hello", "World"};
+            var db = new SafariVacationApiEndorsedContext();
+            return db.SeenAnimals;
         }
 
     }
