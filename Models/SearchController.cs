@@ -17,6 +17,9 @@ namespace SafariVacationApiEndorsed.Controllers
             var db = new SafariVacationApiEndorsedContext();
             var animal = db.SeenAnimals.Where(w => w.Species == species).First();
             return animal;
+        
+        // In Postman Use --> https://localhost:5001/api/search?species=Lion
+
         }
 
     }
