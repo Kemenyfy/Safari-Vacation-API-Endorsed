@@ -34,7 +34,7 @@ namespace SafariVacationApiEndorsed.Controllers
                 var animal = db.SeenAnimals.Where(w => w.LocationOfLastSeen == location).First();
                 return animal;
 
-                // In Postman Use --> https://localhost:5001/api/search?species=Lion
+                // In Postman Use --> https://localhost:5001/api/search?location=Outside
             }
             else
             {
