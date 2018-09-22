@@ -38,7 +38,8 @@ namespace SafariVacationApiEndorsed.Controllers
             }
             else
             {
-                var animal = db.SeenAnimals.Where(w => w.LocationOfLastSeen == location).First();
+                // I need to return something. Don't know how to return a simple Error Message
+                var animal = this.db.SeenAnimals.Where(w => w.Species == species).First();
                 return animal;
             }
 
