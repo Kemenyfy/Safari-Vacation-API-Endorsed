@@ -53,7 +53,7 @@ namespace SafariVacationApiEndorsed.Controllers
             return animal;
         
         // In Postman Use --> https://localhost:5001/api/animal/Outside
-        // In Postman Use --> %20 if there is a space in the name
+        // In Postman Use --> %20 (space notation inside a url)
         
         }
 

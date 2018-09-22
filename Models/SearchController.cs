@@ -11,18 +11,39 @@ namespace SafariVacationApiEndorsed.Controllers
 
     public class SearchController : ControllerBase
     {
-        [HttpGet]
-        public ActionResult<SeenAnimal> Get([FromQuery] string species)
+        private SafariVacationApiEndorsedContext db { get; set; }
+
+        public SearchController()
         {
-            var db = new SafariVacationApiEndorsedContext();
-            var animal = db.SeenAnimals.Where(w => w.Species == species).First();
-            return animal;
-        
-        // In Postman Use --> https://localhost:5001/api/search?species=Lion
+            this.db = new SafariVacationApiEndorsedContext();
+        }
+
+        [HttpGet]
+        public ActionResult<SeenAnimal> GetBySpecies([FromQuery] string species, string location)
+        {
+            if (species != null)
+            {
+                var animal = this.db.SeenAnimals.Where(w => w.Species == species).First();
+                return animal;
+
+                // In Postman Use --> https://localhost:5001/api/search?species=Lion
+
+            }
+            else if (location != null)
+            {
+                var animal = db.SeenAnimals.Where(w => w.LocationOfLastSeen == location).First();
+                return animal;
+
+                // In Postman Use --> https://localhost:5001/api/search?species=Lion
+            }
+            else
+            {
+                var animal = db.SeenAnimals.Where(w => w.LocationOfLastSeen == location).First();
+                return animal;
+            }
 
         }
 
     }
-    
-}
 
+}
